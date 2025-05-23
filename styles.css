@@ -125,3 +125,28 @@ nav{
 .feature-item > a:hover{
     background-color: #007bff;
 }
+
+
+/* About Product Section */
+.about-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f0f0f0;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 0 20px;
+    margin: 50px;
+}
+
+.about-text{
+    justify-self: flex-start;
+    flex-direction: column;
+}
+
+#about-image{
+    width: 400px;
+    height: 300px;
+}
+
+
